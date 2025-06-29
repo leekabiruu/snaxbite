@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #0e0909;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+#searchInput {
+  width: 70%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+#searchButton {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  background-color: #d63447;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #b72c3a;
+}
+
+#results {
+  margin: 1rem 0 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+#orderForm {
+  background-color: #fff9f9;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#orderForm h3 {
+  color: #0e090a;
+  margin-bottom: 1rem;
+}
+
+#selceted\ item {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+#orders {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#placeOderButton {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background-color: #3bba9c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#placeOderButton:hover {
+  background-color: #319b83;
+}
+
+#orderList {
+  margin-top: 1rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+#orderList li {
+  margin-bottom: 0.5rem;
+}
+
+#orderForm > * {
+  margin-bottom: 1rem;
+}

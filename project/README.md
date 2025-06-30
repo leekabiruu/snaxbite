@@ -10,4 +10,3 @@ The orders will be stored in localStorage
 See all your orders and ship them in a single click
 
 
- Project Structure
